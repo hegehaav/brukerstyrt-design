@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './App';
+import './styles/index.css';
+import Entry from './Entry';
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
-);
+ReactDOM.render(<Entry />, document.getElementById('root'));
